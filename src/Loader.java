@@ -8,7 +8,7 @@ public class Loader {
             String name = scanner.nextLine();
             isCorrectName = checkName(name);
             if (!isCorrectName) {
-                System.out.println("Введите корректное имя!");
+                System.out.println("Введите корректное имя!!!");
             } else {
                 System.out.println(formatName(name));
             }
